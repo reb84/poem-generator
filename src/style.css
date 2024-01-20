@@ -87,3 +87,6 @@ footer {
   padding: 10px 0;
   color: #263b3c;
 }
+.hidden {
+  display: none;
+}
