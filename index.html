@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oxygen&family=Playfair+Display:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+
     <title>Poem Generator</title>
   </head>
   <body>
@@ -18,7 +20,7 @@
         <h1>Poem Generator</h1>
       </header>
 
-      <form>
+      <form id="poem-form">
         <input
           type="text"
           placeholder="What would you like a poem about?"
@@ -31,11 +33,7 @@
       </form>
     </div>
     <div class="second-half">
-      <div class="poem">
-        My heart’s in the Highlands, my heart is not here, <br />My heart’s in the Highlands,
-        a-chasing the deer; <br />Chasing the wild-deer, and following the roe, <br />My heart’s in
-        the Highlands, wherever I go…
-      </div>
+      <div class="poem" id="poem"></div>
 
       <footer>
         AI project coded with love by
