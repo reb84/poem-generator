@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #f7f0ea;
+  background: #f6f6ee;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -16,7 +16,7 @@ a:hover {
 }
 
 .first-half {
-  background-color: #dbe4e3;
+  background-color: #d2e0e0;
   padding: 30px 0px;
 }
 
@@ -32,11 +32,11 @@ header {
 h1 {
   text-align: center;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 54px;
   line-height: 1.5;
   color: #c99774;
   margin-top: 40px;
-  font-family: "Playfair Display", serif;
+  font-family: "Satisfy", cursive;
   font-style: italic;
 }
 
