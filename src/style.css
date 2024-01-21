@@ -21,7 +21,7 @@ a:hover {
 }
 
 .second-half {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0px auto;
 }
 
@@ -51,7 +51,7 @@ form {
   padding: 10px;
   border: 0px;
   width: 80%;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 50px;
   line-height: 20px;
   color: #272044;
@@ -77,6 +77,27 @@ form {
   margin-top: 40px;
   color: #263b3c;
   border-radius: 10px;
+}
+
+.form-container {
+  font-size: 11px;
+  text-align: center;
+}
+
+.form-container strong {
+  font-style: italic;
+  color: #c99774;
+}
+
+.generating {
+  color: #263b3c;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.silly {
+  font-size: 14px;
+  text-align: center;
 }
 
 footer {

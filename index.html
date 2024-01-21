@@ -21,19 +21,24 @@
       <header>
         <h1>Poem Generator</h1>
       </header>
-
-      <form id="poem-form">
-        <input
-          type="text"
-          placeholder="What would you like a poem about?"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-          id="submit-instructions"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
+      <div class="form-container">
+        <form id="poem-form">
+          <input
+            type="text"
+            placeholder="What would you like a poem about?"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+            id="submit-instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">
+          i.e: <strong>flowers</strong>, <strong>knitting</strong> or even something more specific
+          such as <strong>'<span class="silly">a dog going on holiday</span>'</strong>.
+        </div>
+      </div>
     </div>
     <div class="second-half">
       <div class="poem hidden" id="poem"></div>
