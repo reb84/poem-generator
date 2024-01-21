@@ -93,6 +93,13 @@ form {
   color: #263b3c;
   opacity: 0.8;
   text-align: center;
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 .silly {
